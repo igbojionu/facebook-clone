@@ -1,0 +1,75 @@
+/* Reset styles for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Set a background color for the page */
+body {
+    background-color: #f0f2f5;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo{
+    background-image: url('https://www.facebook.com/images/fb_icon_325x325.png');
+background-repeat: no-repeat;
+background-size:contain ;
+width: 50px;
+height: 50px;
+margin-bottom:  30px;
+}
+/* Style the login form */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"]{
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    font-size: 14px;
+}
+
+.login-form button[type="submit"]{
+    width: 100%;
+    padding: 10px;
+background-color: #1877f2;
+color: #fff;
+border-radius: 5px;
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+
+/* Style the "Create New Account" and "Forgot Password?" links */
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #65676b;
+  }
+  
+  .signup-link a {
+    text-decoration: none;
+    color: #1877f2;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
